@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gotravel">
+
+    <application
+        android:allowBackup="true"
+        android:name="androidx.multidex.MultiDexApplication"
+        android:icon="@drawable/ic_launcher_background"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GoTravel"
+        >
+        <activity
+            android:name=".LoginSignupActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".LocalFoodListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".SightseeingListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".TempleListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".EntertainmentListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".SightseeingDetailActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+             />
+        <activity
+            android:name=".LocalFoodDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".TempleDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".EntertainmentDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".RestaurantDetailActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".RestaurantListActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".HotelDetailActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".HotelListActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

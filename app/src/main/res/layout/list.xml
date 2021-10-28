@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4B3869"
+    android:orientation="vertical"
+    android:weightSum="2"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotels"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:background="#63B4B8"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+        <ImageView
+            android:id="@+id/header_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gotravel"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.4"
+        android:padding="10dp">
+        <ListView
+            android:id="@+id/typeOfPlace_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#FFA500"
+            android:dividerHeight="1dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

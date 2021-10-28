@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EntertainmentListActivity"
+    android:background="#ffb6c1"
+    android:orientation="vertical"
+    android:weightSum="2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/common_full_open_on_phone"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.4"
+        android:padding="10dp">
+        <ListView
+            android:id="@+id/entertainment_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#FFA500"
+            android:dividerHeight="1dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

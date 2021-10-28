@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@+id/f_login_button"-->
+<!--    android:padding="16dp">-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/f_login_email_text_container"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        >-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/email"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Enter email address"-->
+<!--            android:inputType="textEmailAddress"-->
+<!--            android:maxLines="1"-->
+<!--            android:padding="16dp"-->
+<!--            android:background="#A9E4D7"-->
+<!--            android:textColor="#fff" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/f_login_password_text_container"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/f_login_email_text_container">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/password"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Enter password"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:maxLines="1"-->
+<!--            android:padding="16dp"-->
+<!--            android:background="#A9E4D7"-->
+<!--            android:textColor="#fff" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/f_login_button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:text="Login" />-->
+
+<!--</RelativeLayout>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4B3869"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:shadowColor="@color/white"
+        android:letterSpacing="0.1"
+        android:shadowRadius="2"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#A9E4D7"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:backgroundTint="@color/white"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/f_login_button"
+        android:theme="@style/FormButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="SIGN IN"
+        android:textSize="15sp"
+        android:textColor="#A9E4D7"
+        app:backgroundTint="#664E88"
+        />
+
+
+</LinearLayout>

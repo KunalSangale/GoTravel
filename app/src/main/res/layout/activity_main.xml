@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="#A9E4D7"
+        android:background="#664E88"
+        />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gotravel">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="GoTravel"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="#63B4B8"-->
+<!--        android:textSize="40dp"-->
+<!--        />-->
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical"
+        android:elevation="4dp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotels"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#63B4B8"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/hotel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/hotel"
+            android:elevation="4dp"
+            />
+
+
+
+<!--        <Button-->
+<!--            android:id="@+id/hotel"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hotels"-->
+<!--            android:padding="50dp"-->
+<!--            android:background="#63B4B8"-->
+<!--            android:layout_weight="1"-->
+<!--            style="?android:attr/buttonBarButtonStyle"/>-->
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/restaurant"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Restaurants"-->
+<!--            android:layout_weight="1"-->
+<!--            style="?android:attr/buttonBarButtonStyle"-->
+<!--            />-->
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical"
+        android:elevation="4dp"
+       >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Restaurants"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#63B4B8"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/restaurant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/restaurant"
+            android:elevation="4dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical"
+        android:elevation="4dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temples"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#63B4B8"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/temple"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/temple"
+            android:elevation="4dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:elevation="4dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entertainment"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#63B4B8"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/entertainment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="4dp"
+            android:background="@drawable/entertainment"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:elevation="4dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sightseeing"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#63B4B8"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/sightseeing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="4dp"
+            android:background="@drawable/sightseeing"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical"
+        android:elevation="4dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Local Food"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#63B4B8"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/local_food"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="4dp"
+            android:background="@drawable/local_food"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

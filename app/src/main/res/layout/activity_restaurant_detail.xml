@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantDetailActivity"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="#4B3869"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.4"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VSM HOTEL"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#664E88"
+                    android:textColor="#A9E4D7"
+                    android:textSize="20dp"
+                    android:padding="5dp"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#A9E4D7"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Arena,Near Area 51, Command Centre Washington DC, 499."
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Type of Restaurant"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#A9E4D7"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/restaurant_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Family"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Specialty"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#A9E4D7"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/restaurant_specialty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enter date"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reservation Date"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#A9E4D7"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:id="@+id/checkout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter date"/>
+                <Button
+                    android:id="@+id/btn_confirm"
+                    android:theme="@style/FormButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Confirm Reservation"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                    android:textSize="15sp"
+                    android:background="#63B4B8"
+                    />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

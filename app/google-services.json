@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "250284486921",
+    "project_id": "gotravel-65837",
+    "storage_bucket": "gotravel-65837.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250284486921:android:f9d8042e7fb6c7a40b63d8",
+        "android_client_info": {
+          "package_name": "com.example.gotravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250284486921-ap3i8oj1p5ou1fe7181bvb1tk3mm33k6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1TNQ3I4n3xsXatBA1HKh2ymBr3FTMW8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250284486921-ap3i8oj1p5ou1fe7181bvb1tk3mm33k6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
